@@ -95,7 +95,7 @@ function soma(){
     }
     console.log(somatotal) ;
 }
-// soma();
+soma();
 
 function factorial (n) {
 	var total = 1; 
@@ -145,5 +145,5 @@ function total11(){
 }
 
 //inline 
-operacao(2,3,'+');
-console.log(total11());
+// operacao(2,3,'+');
+// console.log(total11());
