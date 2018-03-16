@@ -17,3 +17,4 @@ console.log(arrayUtils.isEmpty(a));
 console.log(arrayUtils.max(a));
 console.log(arrayUtils.min(a));
 console.log(arrayUtils.media(a));
+console.log(arrayUtils.indexOff(a,2));

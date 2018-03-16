@@ -35,6 +35,16 @@ var arrayUtils = {
         soma=soma/i;
         return soma;
     },
+    indexOff: function(array,value){
+        pos = 0;
+        for(i=0;i!=array.length;i++){
+            if(array[i]==value){
+                pos = i;
+            }
+        }
+        return pos;
+        
+    }
 
 };
 module.exports= arrayUtils;
